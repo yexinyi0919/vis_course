@@ -5,34 +5,54 @@
                 <div class="visualization">清代进士时空分布可视化</div>
             </el-col>
         </el-row>
+
+
+
         <el-row>
             <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
                 <Map @updateCity="updateCity" @updateTime="updateTime" style="margin: 0.125rem;"></Map>
             </el-col>
+
+
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+
+            <el-row>
+              <div class="lastname">
+                <div class="title2"> {{years[props.year]}}时期{{type}}进士姓氏分布图</div>
+                <lastname v-bind:country="type" v-bind:year="props.year"></lastname>
+              </div>
+            </el-row>
+
+          </el-col>
+
+            <el-col :xs="24" :sm="24" :md="6" :lg="6" :xl="6">
+              <el-row>
+                <div class="pie1">
+                  <div class="title2"> {{years[props.year]}}的进士地域分布图</div>
+                  <pie1 v-bind:country="type" v-bind:year="props.year"></pie1>
+                </div>
+              </el-row>
+            </el-col>
+
+            <el-col :xs="24" :sm="24" :md="6" :lg="6" :xl="6">
+
+              <el-row>
+                <div class="pie2">
+                  <div class="title2"> {{years[props.year]}}的文武状元地域分布图</div>
+                  <pie2 v-bind:country="type" v-bind:year="props.year"></pie2>
+                </div>
+              </el-row>
+            </el-col>
+
+
             <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+
               <el-row>
                 <div class="bar">
                   <div class="title2"> {{type}}进士的时间分布图</div>
                   <bar v-bind:country="type" v-bind:year="props.year"></bar>
                 </div>
-
               </el-row>
-              <el-row>
-                <div class="bar">
-                  <div class="title2"> {{type}}进士的时间分布图</div>
-                  <bar v-bind:country="type" v-bind:year="props.year"></bar>
-                </div>
-
-              </el-row>
-              <el-row>
-                <div class="bar">
-                  <div class="title2"> {{type}}进士的时间分布图</div>
-                  <bar v-bind:country="type" v-bind:year="props.year"></bar>
-                </div>
-
-              </el-row>
-
-
 
             </el-col>
         </el-row>
@@ -42,12 +62,18 @@
 <script>
     import Map from '@/components/map/index'
     import bar from '@/components/bar/index'
+    import pie1 from '@/components/pie1/index'
+    import pie2 from '@/components/pie2/index'
+    import lastname from "@/components/lastname/index.vue";
 
 
     export default {
         components:{
             Map,
-            bar
+            bar,
+            pie1,
+            pie2,
+            lastname
         },
         data() {
             return {
@@ -65,7 +91,8 @@
                 date: new Date(),
                 fullscreen: false,
                 // year:0
-                props:{year: 0}
+                props:{year: 0},
+                years: ['清世祖', '清圣祖', '清xx'],
             };
         },
         mounted(){
