@@ -14,16 +14,7 @@
             </el-col>
 
 
-          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
-
-            <el-row>
-              <div class="lastname">
-                <div class="title2"> {{years[props.year]}}时期{{type}}进士姓氏分布图</div>
-                <lastname v-bind:country="type" v-bind:year="props.year"></lastname>
-              </div>
-            </el-row>
-
-          </el-col>
+          
 
             <el-col :xs="24" :sm="24" :md="6" :lg="6" :xl="6">
               <el-row>
@@ -43,6 +34,18 @@
                 </div>
               </el-row>
             </el-col>
+
+
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+
+            <el-row>
+              <div class="lastname">
+                <div class="title2"> {{years[props.year]}}时期{{type}}进士姓氏分布图</div>
+                <lastname v-bind:country="type" v-bind:year="props.year"></lastname>
+              </div>
+            </el-row>
+
+          </el-col>
 
 
             <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
