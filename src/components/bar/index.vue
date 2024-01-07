@@ -46,8 +46,9 @@ export default {
   methods: {
     initChart(){
       let data;
-      if(this.country in num_data) {data = num_data[this.country];}
-      else {data = [0,0,0,0,0,0,0,0,0];}
+      // if(this.country in num_data) {data = num_data[this.country];}
+      // else {data = [0,0,0,0,0,0,0,0,0];}
+      data = num_data
       year_ = this.year;
 
       this.options =  {
@@ -67,7 +68,7 @@ export default {
             type: 'value',
             name: '进士人数',
             min: 0,
-            max: 800,
+            max: 5000,
             position: 'left',
             axisLine: {
               show: true
@@ -81,7 +82,10 @@ export default {
             itemStyle: {
               color: function (params) {
                 let colorList = ['#00b090', '#00b090', '#00b090','#00b090', '#00b090', '#00b090','#00b090', '#00b090', '#00b090'];
-                colorList[year_] = '#37A2DA';
+                if(year_ !== 0)
+                {
+                  colorList[year_-1] = '#37A2DA';
+                }
                 return colorList[params.dataIndex];
               }
             },
