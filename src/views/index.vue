@@ -49,7 +49,7 @@
 
               <el-row>
                 <div class="bar">
-                  <div class="title2"> {{type}}进士的时间分布图</div>
+                  <div class="title2"> 全国进士的时间分布图</div>
                   <bar v-bind:country="type" v-bind:year="props.year"></bar>
                 </div>
               </el-row>
