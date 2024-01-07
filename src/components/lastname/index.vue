@@ -87,7 +87,7 @@ export default {
             type: 'value',
             name: '进士人数',
             min: 0,
-            max: 300,
+            max: 80,
             position: 'left',
             axisLine: {
               show: true
