@@ -54,7 +54,7 @@ export default {
 
       let countryIndex = data.findIndex(item => item.name === this.country);
 
-      let selectedCountryData = data[countryIndex].value;
+      let selectedCountryData = countryIndex !== -1 ? data[countryIndex].value : { lastname: [], count: [] };
 
 
       let colors = new Array(data.length).fill('#4682B4');
