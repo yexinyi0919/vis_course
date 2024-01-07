@@ -79,7 +79,7 @@ export default {
           radius: baseRadius,
           itemStyle: {
             borderColor: '#fff', // Set the border color to white
-            borderWidth: 0.1,      // Set the border width
+            borderWidth: 0.27,      // Set the border width
           },
         };
       });
