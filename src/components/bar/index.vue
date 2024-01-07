@@ -85,7 +85,7 @@ export default {
             type: 'value',
             name: '在位时长（年）',
             min: 0,
-            max: 100,
+            max: 70,
             position: 'right',
             axisLine: {
               show: true,
