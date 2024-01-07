@@ -83,7 +83,7 @@ export default {
           },
           {
             type: 'value',
-            name: '在位时长',
+            name: '在位时长（年）',
             min: 0,
             max: 100,
             position: 'right',
