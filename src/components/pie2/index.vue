@@ -77,10 +77,16 @@ export default {
             type: "pie",
             radius: "50%",
             center: ["50%", "50%"],
-            data: data.map((item) => ({
-              name: item.name, // Replace with the actual name corresponding to the index
-              value: item.value,
-            })),
+            data: data
+                .filter((item) => item.value !== 0) // Filter out data with value 0
+                .map((item) => ({
+                  name: item.name,
+                  value: item.value,
+                  label: {
+                    formatter: '{b}: {c}人\n{d}%',
+                    show: true,
+                  },
+                })),
             label: {
               formatter: "{b}: {c} 人{d}%",
             },
