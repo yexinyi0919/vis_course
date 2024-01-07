@@ -53,35 +53,36 @@ export default {
       //data = [1,2,3,4,5,6];
 
 
-      let colors = new Array(data.length).fill('#00b090');
+      let filteredData = data.filter(item => item.value !== 0);
+
+      let colors = new Array(filteredData.length).fill('#00b090');
 
       // Find the index of the specified country in the data
-      let countryIndex = data.findIndex(item => item.name === this.country);
+      let countryIndex = filteredData.findIndex(item => item.name.toLowerCase() === this.country.toLowerCase());
 
-      let emphasisStyle = {
-        emphasis: {
-          scale: true,  // Enable scale animation
-          label: {
-            formatter: '{b}: {c}人\n{d}%',  // Include both people count and percentage in the label on hover
-            show: true,  // Show label on hover
-          },
-          itemStyle: {
-            color: '#37A2DA',  // Set the color for the highlighted section
-            shadowBlur: 10,    // Add shadow blur for emphasis effect
-          },
-        },
-      };
 
       if (countryIndex !== -1) {
         colors[countryIndex] = '#37A2DA';  // Set the desired highlight color
-        emphasisStyle = {
-          ...emphasisStyle,
-          itemStyle: {
-            color: '#37A2DA',  // Set the color for the highlighted section
-          },
-        };
       }
 
+      let radiusData = filteredData.map((item, index) => {
+        const isCountry = index === countryIndex;
+        const baseRadius = isCountry ? '60%' : '50%';
+
+        return {
+          name: item.name,
+          value: item.value,
+          label: {
+            formatter: '{b}: {c}人\n{d}%',
+            show: true,
+          },
+          radius: baseRadius,
+          itemStyle: {
+            borderColor: '#fff', // Set the border color to white
+            borderWidth: 0.1,      // Set the border width
+          },
+        };
+      });
 
 
       this.options = {
@@ -90,21 +91,10 @@ export default {
             type: "pie",
             radius: "50%",
             center: ["50%", "50%"],
-            data: data
-                .filter((item) => item.value !== 0) // Filter out data with value 0
-                .map((item) => ({
-                  name: item.name,
-                  value: item.value,
-                  label: {
-                    formatter: '{b}: {c}人\n{d}%',
-                    show: true,
-                  },
-                })),
+            data: radiusData,
             label: {
-              formatter: "{b}",
+              formatter: "{b}: {c} 人{d}%",
             },
-            emphasis: countryIndex !== -1 ? emphasisStyle.emphasis : null,
-            //emphasis: emphasisStyle
           }
         ],
         color: colors,
