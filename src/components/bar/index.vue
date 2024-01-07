@@ -10,6 +10,7 @@
 <script>
 import Echart from '@/common/echart';
 import num_data from './num_data.json';
+import data1 from './time_be_king.json';
 let year_ = 0;
 
 export default {
@@ -72,7 +73,29 @@ export default {
             position: 'left',
             axisLine: {
               show: true
+            },
+            axisLabel: {
+              formatter: '{value}'
+            },
+            splitLine: {
+              show: false
             }
+          },
+          {
+            type: 'value',
+            name: '在位时长',
+            min: 0,
+            max: 100,
+            position: 'right',
+            axisLine: {
+              show: true,
+            },
+            splitLine: {
+              show: false
+            },
+            axisLabel: {
+              formatter: '{value}'
+            },
           }
         ],
         series: [
@@ -83,6 +106,22 @@ export default {
               color: function (params) {
                 let colorList = ['#00b090', '#00b090', '#00b090','#00b090', '#00b090', '#00b090','#00b090', '#00b090', '#00b090'];
                 colorList[year_] = '#37A2DA';
+                // if(year_ !== 0)
+                // {
+                //   colorList[year_-1] = '#37A2DA';
+                // }
+                return colorList[params.dataIndex];
+              }
+            },
+          },
+          {
+            type: 'bar',
+            data: data1,
+            yAxisIndex: 1,
+            itemStyle: {
+              color: function (params) {
+                let colorList = ['#90f000', '#90f000', '#90f000','#90f000', '#90f000', '#90f000','#90f000', '#90f000', '#90f000'];
+                colorList[year_] = '#909000';
                 // if(year_ !== 0)
                 // {
                 //   colorList[year_-1] = '#37A2DA';
