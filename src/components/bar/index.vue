@@ -68,7 +68,7 @@ export default {
             type: 'value',
             name: '进士人数',
             min: 0,
-            max: 5000,
+            max: 6000,
             position: 'left',
             axisLine: {
               show: true
@@ -82,10 +82,11 @@ export default {
             itemStyle: {
               color: function (params) {
                 let colorList = ['#00b090', '#00b090', '#00b090','#00b090', '#00b090', '#00b090','#00b090', '#00b090', '#00b090'];
-                if(year_ !== 0)
-                {
-                  colorList[year_-1] = '#37A2DA';
-                }
+                colorList[year_] = '#37A2DA';
+                // if(year_ !== 0)
+                // {
+                //   colorList[year_-1] = '#37A2DA';
+                // }
                 return colorList[params.dataIndex];
               }
             },

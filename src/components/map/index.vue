@@ -10,7 +10,7 @@ import province_to_num from './province_to_num.json'
 
 var cityName = '北京市'
 var cur_year = '清世祖'
-const years = ['清朝总览','清世祖','清圣祖','清世宗','清高宗','清仁宗','清宣宗','清文宗','清穆宗','清德宗']
+const years = ['清世祖','清圣祖','清世宗','清高宗','清仁宗','清宣宗','清文宗','清穆宗','清德宗']
 
 
 export default {
@@ -63,7 +63,7 @@ export default {
             {
               orient: 'vertical',
               min: 0,
-              max: 2500,
+              max: 600,
               text: ['进士人数'],
               realtime: false,
               calculable: true,

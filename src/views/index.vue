@@ -77,13 +77,13 @@
         },
         data() {
             return {
-                type:"浙江",
+                type:"全国",
                 note: {
                     // backgroundImage: "url(" + require("../assets/img/bg.jpg") + ")",
                     backgroundSize: "100% 100%",
                 },
                 box: {
-                    margin:"10px 10px 10px 10px",
+                    margin:"0px 0px 0px 0px",
                     height: "2rem",
                     border: "0.25rem solid transparent",
                     // borderImage: "url("+require("../assets/img/border.png")+") 51 32 18 66",
@@ -92,7 +92,7 @@
                 fullscreen: false,
                 // year:0
                 props:{year: 0},
-                years: ['清朝总览','清世祖','清圣祖','清世宗','清高宗','清仁宗','清宣宗','清文宗','清穆宗','清德宗'],
+                years: ['清世祖','清圣祖','清世宗','清高宗','清仁宗','清宣宗','清文宗','清穆宗','清德宗'],
             };
         },
         mounted(){
