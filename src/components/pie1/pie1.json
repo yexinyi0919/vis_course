@@ -1,0 +1,822 @@
+[
+    [
+        {
+            "name": "顺天",
+            "value": 730
+        },
+        {
+            "name": "直隶",
+            "value": 2078
+        },
+        {
+            "name": "奉天",
+            "value": 163
+        },
+        {
+            "name": "山东",
+            "value": 2298
+        },
+        {
+            "name": "江苏",
+            "value": 1827
+        },
+        {
+            "name": "安徽",
+            "value": 850
+        },
+        {
+            "name": "山西",
+            "value": 1460
+        },
+        {
+            "name": "河南",
+            "value": 1734
+        },
+        {
+            "name": "陕西",
+            "value": 1140
+        },
+        {
+            "name": "甘肃",
+            "value": 281
+        },
+        {
+            "name": "浙江",
+            "value": 2859
+        },
+        {
+            "name": "江西",
+            "value": 1904
+        },
+        {
+            "name": "湖北",
+            "value": 843
+        },
+        {
+            "name": "湖南",
+            "value": 650
+        },
+        {
+            "name": "福建",
+            "value": 1421
+        },
+        {
+            "name": "广东",
+            "value": 1038
+        },
+        {
+            "name": "广西",
+            "value": 574
+        },
+        {
+            "name": "四川",
+            "value": 780
+        },
+        {
+            "name": "贵州",
+            "value": 592
+        },
+        {
+            "name": "云南",
+            "value": 702
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 144
+        },
+        {
+            "name": "直隶",
+            "value": 333
+        },
+        {
+            "name": "奉天",
+            "value": 2
+        },
+        {
+            "name": "山东",
+            "value": 422
+        },
+        {
+            "name": "江苏",
+            "value": 299
+        },
+        {
+            "name": "安徽",
+            "value": 62
+        },
+        {
+            "name": "山西",
+            "value": 251
+        },
+        {
+            "name": "河南",
+            "value": 302
+        },
+        {
+            "name": "陕西",
+            "value": 168
+        },
+        {
+            "name": "甘肃",
+            "value": 0
+        },
+        {
+            "name": "浙江",
+            "value": 305
+        },
+        {
+            "name": "江西",
+            "value": 80
+        },
+        {
+            "name": "湖北",
+            "value": 0
+        },
+        {
+            "name": "湖南",
+            "value": 0
+        },
+        {
+            "name": "福建",
+            "value": 118
+        },
+        {
+            "name": "广东",
+            "value": 33
+        },
+        {
+            "name": "广西",
+            "value": 2
+        },
+        {
+            "name": "四川",
+            "value": 15
+        },
+        {
+            "name": "贵州",
+            "value": 1
+        },
+        {
+            "name": "云南",
+            "value": 0
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 155
+        },
+        {
+            "name": "直隶",
+            "value": 400
+        },
+        {
+            "name": "奉天",
+            "value": 27
+        },
+        {
+            "name": "山东",
+            "value": 424
+        },
+        {
+            "name": "江苏",
+            "value": 235
+        },
+        {
+            "name": "安徽",
+            "value": 39
+        },
+        {
+            "name": "山西",
+            "value": 264
+        },
+        {
+            "name": "河南",
+            "value": 304
+        },
+        {
+            "name": "陕西",
+            "value": 192
+        },
+        {
+            "name": "甘肃",
+            "value": 9
+        },
+        {
+            "name": "浙江",
+            "value": 590
+        },
+        {
+            "name": "江西",
+            "value": 197
+        },
+        {
+            "name": "湖北",
+            "value": 2
+        },
+        {
+            "name": "湖南",
+            "value": 2
+        },
+        {
+            "name": "福建",
+            "value": 178
+        },
+        {
+            "name": "广东",
+            "value": 91
+        },
+        {
+            "name": "广西",
+            "value": 30
+        },
+        {
+            "name": "四川",
+            "value": 62
+        },
+        {
+            "name": "贵州",
+            "value": 31
+        },
+        {
+            "name": "云南",
+            "value": 45
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 65
+        },
+        {
+            "name": "直隶",
+            "value": 117
+        },
+        {
+            "name": "奉天",
+            "value": 9
+        },
+        {
+            "name": "山东",
+            "value": 109
+        },
+        {
+            "name": "江苏",
+            "value": 46
+        },
+        {
+            "name": "安徽",
+            "value": 7
+        },
+        {
+            "name": "山西",
+            "value": 86
+        },
+        {
+            "name": "河南",
+            "value": 85
+        },
+        {
+            "name": "陕西",
+            "value": 65
+        },
+        {
+            "name": "甘肃",
+            "value": 3
+        },
+        {
+            "name": "浙江",
+            "value": 184
+        },
+        {
+            "name": "江西",
+            "value": 114
+        },
+        {
+            "name": "湖北",
+            "value": 51
+        },
+        {
+            "name": "湖南",
+            "value": 35
+        },
+        {
+            "name": "福建",
+            "value": 103
+        },
+        {
+            "name": "广东",
+            "value": 70
+        },
+        {
+            "name": "广西",
+            "value": 18
+        },
+        {
+            "name": "四川",
+            "value": 32
+        },
+        {
+            "name": "贵州",
+            "value": 32
+        },
+        {
+            "name": "云南",
+            "value": 50
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 262
+        },
+        {
+            "name": "直隶",
+            "value": 378
+        },
+        {
+            "name": "奉天",
+            "value": 29
+        },
+        {
+            "name": "山东",
+            "value": 372
+        },
+        {
+            "name": "江苏",
+            "value": 226
+        },
+        {
+            "name": "安徽",
+            "value": 80
+        },
+        {
+            "name": "山西",
+            "value": 329
+        },
+        {
+            "name": "河南",
+            "value": 290
+        },
+        {
+            "name": "陕西",
+            "value": 220
+        },
+        {
+            "name": "甘肃",
+            "value": 24
+        },
+        {
+            "name": "浙江",
+            "value": 716
+        },
+        {
+            "name": "江西",
+            "value": 548
+        },
+        {
+            "name": "湖北",
+            "value": 221
+        },
+        {
+            "name": "湖南",
+            "value": 130
+        },
+        {
+            "name": "福建",
+            "value": 310
+        },
+        {
+            "name": "广东",
+            "value": 269
+        },
+        {
+            "name": "广西",
+            "value": 103
+        },
+        {
+            "name": "四川",
+            "value": 162
+        },
+        {
+            "name": "贵州",
+            "value": 130
+        },
+        {
+            "name": "云南",
+            "value": 134
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 141
+        },
+        {
+            "name": "直隶",
+            "value": 203
+        },
+        {
+            "name": "奉天",
+            "value": 21
+        },
+        {
+            "name": "山东",
+            "value": 216
+        },
+        {
+            "name": "江苏",
+            "value": 232
+        },
+        {
+            "name": "安徽",
+            "value": 164
+        },
+        {
+            "name": "山西",
+            "value": 143
+        },
+        {
+            "name": "河南",
+            "value": 139
+        },
+        {
+            "name": "陕西",
+            "value": 89
+        },
+        {
+            "name": "甘肃",
+            "value": 35
+        },
+        {
+            "name": "浙江",
+            "value": 263
+        },
+        {
+            "name": "江西",
+            "value": 229
+        },
+        {
+            "name": "湖北",
+            "value": 127
+        },
+        {
+            "name": "湖南",
+            "value": 100
+        },
+        {
+            "name": "福建",
+            "value": 157
+        },
+        {
+            "name": "广东",
+            "value": 110
+        },
+        {
+            "name": "广西",
+            "value": 67
+        },
+        {
+            "name": "四川",
+            "value": 91
+        },
+        {
+            "name": "贵州",
+            "value": 99
+        },
+        {
+            "name": "云南",
+            "value": 117
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 157
+        },
+        {
+            "name": "直隶",
+            "value": 221
+        },
+        {
+            "name": "奉天",
+            "value": 28
+        },
+        {
+            "name": "山东",
+            "value": 275
+        },
+        {
+            "name": "江苏",
+            "value": 266
+        },
+        {
+            "name": "安徽",
+            "value": 166
+        },
+        {
+            "name": "山西",
+            "value": 147
+        },
+        {
+            "name": "河南",
+            "value": 177
+        },
+        {
+            "name": "陕西",
+            "value": 97
+        },
+        {
+            "name": "甘肃",
+            "value": 43
+        },
+        {
+            "name": "浙江",
+            "value": 300
+        },
+        {
+            "name": "江西",
+            "value": 267
+        },
+        {
+            "name": "湖北",
+            "value": 139
+        },
+        {
+            "name": "湖南",
+            "value": 105
+        },
+        {
+            "name": "福建",
+            "value": 149
+        },
+        {
+            "name": "广东",
+            "value": 140
+        },
+        {
+            "name": "广西",
+            "value": 94
+        },
+        {
+            "name": "四川",
+            "value": 111
+        },
+        {
+            "name": "贵州",
+            "value": 95
+        },
+        {
+            "name": "云南",
+            "value": 119
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 32
+        },
+        {
+            "name": "直隶",
+            "value": 78
+        },
+        {
+            "name": "奉天",
+            "value": 12
+        },
+        {
+            "name": "山东",
+            "value": 81
+        },
+        {
+            "name": "江苏",
+            "value": 69
+        },
+        {
+            "name": "安徽",
+            "value": 40
+        },
+        {
+            "name": "山西",
+            "value": 48
+        },
+        {
+            "name": "河南",
+            "value": 97
+        },
+        {
+            "name": "陕西",
+            "value": 63
+        },
+        {
+            "name": "甘肃",
+            "value": 31
+        },
+        {
+            "name": "浙江",
+            "value": 86
+        },
+        {
+            "name": "江西",
+            "value": 73
+        },
+        {
+            "name": "湖北",
+            "value": 43
+        },
+        {
+            "name": "湖南",
+            "value": 31
+        },
+        {
+            "name": "福建",
+            "value": 46
+        },
+        {
+            "name": "广东",
+            "value": 36
+        },
+        {
+            "name": "广西",
+            "value": 27
+        },
+        {
+            "name": "四川",
+            "value": 50
+        },
+        {
+            "name": "贵州",
+            "value": 30
+        },
+        {
+            "name": "云南",
+            "value": 36
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 49
+        },
+        {
+            "name": "直隶",
+            "value": 139
+        },
+        {
+            "name": "奉天",
+            "value": 17
+        },
+        {
+            "name": "山东",
+            "value": 119
+        },
+        {
+            "name": "江苏",
+            "value": 125
+        },
+        {
+            "name": "安徽",
+            "value": 76
+        },
+        {
+            "name": "山西",
+            "value": 59
+        },
+        {
+            "name": "河南",
+            "value": 112
+        },
+        {
+            "name": "陕西",
+            "value": 72
+        },
+        {
+            "name": "甘肃",
+            "value": 23
+        },
+        {
+            "name": "浙江",
+            "value": 109
+        },
+        {
+            "name": "江西",
+            "value": 123
+        },
+        {
+            "name": "湖北",
+            "value": 75
+        },
+        {
+            "name": "湖南",
+            "value": 65
+        },
+        {
+            "name": "福建",
+            "value": 85
+        },
+        {
+            "name": "广东",
+            "value": 79
+        },
+        {
+            "name": "广西",
+            "value": 73
+        },
+        {
+            "name": "四川",
+            "value": 73
+        },
+        {
+            "name": "贵州",
+            "value": 45
+        },
+        {
+            "name": "云南",
+            "value": 42
+        }
+    ],
+    [
+        {
+            "name": "顺天",
+            "value": 80
+        },
+        {
+            "name": "直隶",
+            "value": 269
+        },
+        {
+            "name": "奉天",
+            "value": 41
+        },
+        {
+            "name": "山东",
+            "value": 280
+        },
+        {
+            "name": "江苏",
+            "value": 329
+        },
+        {
+            "name": "安徽",
+            "value": 216
+        },
+        {
+            "name": "山西",
+            "value": 133
+        },
+        {
+            "name": "河南",
+            "value": 228
+        },
+        {
+            "name": "陕西",
+            "value": 174
+        },
+        {
+            "name": "甘肃",
+            "value": 114
+        },
+        {
+            "name": "浙江",
+            "value": 306
+        },
+        {
+            "name": "江西",
+            "value": 274
+        },
+        {
+            "name": "湖北",
+            "value": 185
+        },
+        {
+            "name": "湖南",
+            "value": 182
+        },
+        {
+            "name": "福建",
+            "value": 275
+        },
+        {
+            "name": "广东",
+            "value": 210
+        },
+        {
+            "name": "广西",
+            "value": 167
+        },
+        {
+            "name": "四川",
+            "value": 184
+        },
+        {
+            "name": "贵州",
+            "value": 143
+        },
+        {
+            "name": "云南",
+            "value": 159
+        }
+    ]
+]
